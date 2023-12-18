@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+    <marquee behavior="scroll" direction="left" scrollamount="5">
+        Koreanamipansi - How to Write Korean Hangeul
+    
+        <style>
+            .marquee-container {
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        
+        .marquee-text {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            animation: marquee 10s linear infinite; 
+            display: inline-block;
+        }
+        
+        @keyframes marquee {
+            from {
+                transform: translateX(100%);
+            }
+            to {
+                transform: translateX(-100%);
+            }
+        }
+        
+        </style>
+    </marquee>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Koreanamipansi FAQ</title>
+        <style>
+            body {
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+                margin: 0;
+                padding: 0;
+            }
+    
+            header {
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 10px;
+            }
+    
+            section {
+                padding: 20px;
+            }
+    
+            h2 {
+                color: #333;
+            }
+    
+            .faq-item {
+                margin-bottom: 20px;
+            }
+    
+            .question {
+                font-weight: bold;
+                cursor: pointer;
+                color: #333;
+                transition: color 0.3s; /* Efek transisi warna */
+            }
+    
+            .question:hover {
+                color: #e347fb; /* Warna yang berbeda saat cursor diarahkan */
+            }
+    
+            .answer {
+                display: none;
+                margin-top: 10px;
+            }
+        </style>
+    </head>
+
+    <header>
+        <h1>Koreanamipansi - FAQ</h1>
+    </header>
+
+    <nav class="navbar">
+        <div class="logo">Koreanamipansi</div>
+        <ul class="nav-list">
+           <li>
+            <a href="Menu.html" onclick="goBack()">Back to Welcome</a>
+          </li>
+        </ul>
+
+        <style>
+
+.navbar {
+    background-color: #1e1e1e; 
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ecf0f1; 
+
+.logo {
+       font-size: 1.4em;
+        font-family:'Times New Roman', Times, serif;
+       font-weight: bold;
+    background: 986EAD (0, 0, 0, 0.7);
+    padding: 5px 10px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: bounce 1s infinite;
+    @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+    }`
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #ecf0f1; 
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+    color: #3498db; 
+}
+
+        </style>
+      </nav>
+
+
+<body>
+<section>
+    <div class="faq-item">
+        <div class="question">1. Apa yang membuat Koreanamipansi unik?</div>
+        <div class="answer">Koreanamipansi adalah sumber informasi terkini mengenai bahasa dan budaya Korea. website aku menyajikan konten yang menarik dan edukatif, memberikan wawasan mendalam kepada para pembelajar dan penggemar Korea loh!.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="question">2. Gimana aku bisa memanfaatkan sumber daya Koreanamipansi?</div>
+        <div class="answer">Kamu bisa mengakses artikel, tutorial, dan sumber daya belajar aku dengan mengunjungi halaman beranda website aku. Jelajahi kategori yang berbeda untuk menemukan konten yang sesuai dengan minat dan kebutuhan kamu, Korean Lover!!.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="question">3. Apakah ada biaya yang terkait dengan penggunaan Koreanamipansi?</div>
+        <div class="answer">Tidak, Koreanamipansi adalah sumber daya belajar gratis. Kamu bisa menikmati seluruh konten website aku tanpa biaya atau langganan.</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="question">6. Bagaimana cara mengikuti pembaruan terbaru dari Koreanamipansi?</div>
+        <div class="answer">Kamu bisa mengikuti aku di media sosial seperti Instagram, Twitter, dan Facebook untuk mendapatkan pembaruan terbaru. Selain itu, berlangganan buletin website aku untuk mendapatkan informasi langsung di kotak masuk email kamu ya!.</div>
+    </div>
+   
+
+</section>
+
+<script>
+    // Tambahkan script untuk menampilkan jawaban ketika pertanyaan diklik
+    const questions = document.querySelectorAll('.question');
+
+    questions.forEach(question => {
+        question.addEventListener('click', () => {
+            const answer = question.nextElementSibling;
+            answer.style.display = answer.style.display === 'none' ? 'block' : 'none';
+        });
+    });
+</script>
+
+</body>
+
+<footer class="footer">
+    <div class="fixed-bottom">
+    <li>
+        <p><i class="fas fa-map-marker-alt pe-2"></i>Star Residence, Unit A.7, Padang</p>
+      </li>
+  
+        <p><i class="fas fa-instagram pe-2"></i>IG me: @aai-sah13 | Twt me: @Amipansi | Raed me on Wattpad: @Amipansi</p>
+      </li>
+        <p><i class="fas fa-phone pe-2"></i>WA me:+ 62 831 9330 2668</p>
+      </li>
+      <li>
+        <p><i class="fas fa-envelope pe-2 mb-0"></i>bangtanfini@gmail.com</p>
+      </li>
+    <p>&copy; 2023 Koreanamipansi | Dibuat dengan ❤️ oleh <a href="Home.html">Koreanamipansi.com</a></p>
+    </div>
+</footer>
+
+  <!-- Include jQuery, Popper.js, and Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <style>
+    }
+ .container {
+     margin-top: 5%;
+ }
+ 
+ footer {
+     background-color: #1e1e1e;
+     text-align: center;
+     color: #fff;
+     text-align: center;
+ }
+ 
+ .container p {
+     font-weight: 50;
+ }
+ 
+ .container h5 {
+     text-transform: uppercase;
+     margin-bottom: 1.5rem;
+ }
+ 
+ .list-unstyled {
+     list-style: none;
+     padding: 0;
+ }
+ 
+ .list-unstyled li {
+     margin-bottom: 1rem;
+ }
+ 
+ .list-unstyled li p i {
+     margin-right: 0.5rem;
+ }
+ 
+ 
+ .text-center.p-3 {
+     background-color: rgba(103, 114, 157, 0.2);
+     color: #fff;
+     margin-top: 5%;
+     padding: 1.5rem;
+ }
+ 
+ .text-center.p-3 a {
+     color: #fff;
+     text-decoration: none;
+     font-weight: bold;
+ }
+ </style>
+
+</html>
